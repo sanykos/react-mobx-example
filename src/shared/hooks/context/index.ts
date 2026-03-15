@@ -1,0 +1,1 @@
+export { createDi } from './createDi'
