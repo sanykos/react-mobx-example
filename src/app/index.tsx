@@ -1,11 +1,10 @@
-import { TodosView } from '../features/Todos';
+import { RouterProvider } from "react-router";
+import { router } from "./routers";
+
 
 function App() {
-  
-
-
   return (
-    <TodosView/>
+    <RouterProvider router={router}/>
   )
 }
 
