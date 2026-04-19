@@ -1,5 +1,5 @@
-import { createContext } from "react"
+import { createContext } from 'react';
 
 export const createStrictContext = <T>() => {
-    return createContext<T | null>(null)
-}
+  return createContext<T | null>(null);
+};

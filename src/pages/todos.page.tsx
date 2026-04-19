@@ -1,5 +1,5 @@
-import { List } from "../features/Todos"
+import { List } from '../features/Todos';
 
 export const TodosPage = () => {
-    return <List />
-}
+  return <List />;
+};

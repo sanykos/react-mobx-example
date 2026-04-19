@@ -1,11 +1,11 @@
-import { useContext, type Context } from 'react'
+import { useContext, type Context } from 'react';
 
 export const useStrictContext = <T>(context: Context<T | null>): T => {
- const value = useContext(context);
+  const value = useContext(context);
 
-    if (value === null) {
-        throw new Error('Empty context value');
-    }
+  if (value === null) {
+    throw new Error('Empty context value');
+  }
 
-    return value;
-}
+  return value;
+};

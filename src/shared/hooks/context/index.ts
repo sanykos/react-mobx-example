@@ -1,1 +1,1 @@
-export { createDi } from './createDi'
+export { createDi } from './createDi';

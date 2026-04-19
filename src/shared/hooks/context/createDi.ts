@@ -1,10 +1,10 @@
-import { createStrictContext } from "./createStrictContext"
-import { useStrictContext } from "./useStrictContext";
+import { createStrictContext } from './createStrictContext';
+import { useStrictContext } from './useStrictContext';
 
 export const createDi = <T>() => {
-    const injector = createStrictContext<T>();
+  const injector = createStrictContext<T>();
 
-    const useDi = () => useStrictContext(injector);
+  const useDi = () => useStrictContext(injector);
 
-    return { Injector: injector.Provider, useDi }
-}
+  return { Injector: injector.Provider, useDi };
+};

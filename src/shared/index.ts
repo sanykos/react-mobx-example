@@ -1,1 +1,1 @@
-export { createDi } from './hooks/context'
+export { createDi } from './hooks/context';
